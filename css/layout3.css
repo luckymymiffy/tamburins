@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+body{
+    background-color: #f7f7f7;
+}
+header .header_wrap{
+    width: calc(100% - 50px);
+    display: flex;
+    justify-content: flex-start;
+}
+header h1{
+    width: 215px;
+    height: 42px;
+    padding-top: 17px;
+}
+header h1 img{
+    width: 100%;
+    margin-left: 10px;
+}
+header .icon_wrap{
+    display: none;
+}
+
+#best_wrap{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(134, 111, 83); */
+}
+#menu_list{
+    display: flex;
+    padding-right: 20px;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+#menu_list .sub_go a{
+    color: #3b342e;
+    font-weight: 600;
+}
+.best_list{
+    padding: 100px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid black;
+}
+.best_list p{
+    font-size: 2rem;
+    font-family: 'Gowun Batang', serif;
+}
+.item_list{
+    width: 100%;
+    height: 100%;
+}
+.item_list>ul{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(10px,1fr));
+}
+.item_list>ul>li{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.item_list ul li img{
+    width: 100%;
+}
+.item_list>ul>li p{
+    width: 80%;
+    height: 100px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    opacity: 0;
+    /* background-color: #fff;
+    border: 1px solid #000; */
+    transition: .3s ease-in-out;
+    font-weight: 500;
+}
+.item_list>ul>li span{
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+.item_list>ul>li:hover p{
+   opacity: 1;
+}
+
+@media (max-width:850px){
+    header h1 img{
+        margin-top: 0;
+        height: inherit;
+    }
+    .best_list {
+        padding: 100px 75px;
+        padding-bottom: 0px;
+    }
+    #menu_list{
+        display: none;
+    }
+    .item_list>ul {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,minmax(10px,1fr));
+    }
+    
+    
+}
