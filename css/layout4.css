@@ -75,6 +75,7 @@ header .icon_wrap{
 }
 #menu_list li{
     padding-right: 30px;
+    
 }
 .list_bg{
     width: 180px;
@@ -82,6 +83,13 @@ header .icon_wrap{
     background-color:  #fff;
     /* border: 1px solid #212121; */
     border-radius: 30px;
+}
+#menu_list li:hover span{
+    color: #f7f7f7;
+}
+#menu_list li:hover .list_bg{
+    background-color:  #3b342e;
+    transition: .3s ease all;
 }
 .go_link{
     position: relative;
