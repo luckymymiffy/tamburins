@@ -101,21 +101,22 @@ ul.bxslider {
 
 .bx-wrapper .bx-controls-direction a {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 30px;
   outline: 0;
   width: 36px;
   height: 64px;
-  text-indent: -9999px;
+  /* text-indent: -9999px; */
   background-image: url(../img/arrow_l.png);
   background-repeat: no-repeat;
   z-index: 9999;
+  color: #f7f7f7;
 }
 .bx-controls-direction{
   width: 50px;
   height: 20px;
   float: right;
   position: relative;
-  margin-right: 35px;
+  margin-right: 0px;
 }
 .sub_slide .bx-controls-direction{
   margin-right: 50px;

@@ -11,6 +11,7 @@ if(sct > oldsct){ // 스크롤을 내리면 감추고
     $('#main_header').removeClass('up');
 }
 oldsct = sct;
+
 });
 // 네비
 $(function(){
@@ -53,6 +54,16 @@ $(function(){
         maxSlides: 2,
         touchEnabled: false,
         });
+
+        
+        $('.sub_slide').bxSlider({
+            auto: true,
+            autoControls: false,
+            stopAutoOnClick: false,
+            pager: false,
+            slideWidth: 640
+        });
+
 });
 
         
@@ -69,5 +80,7 @@ $(function(){
         
         });
 });
+
+
 
 
