@@ -126,13 +126,19 @@ header .icon_wrap{
     }
     .best_list {
         padding: 100px 75px;
-        padding-bottom: 0px;
+        padding-bottom: 50px;
     }
     #menu_list{
-        position: relative;
-        left: -100px;
+        display: none;
     }
     .store{
         display: none;
+    }
+    .store_txt h2{
+        font-size: 2.2rem;
+    }
+    .store_txt p{
+        padding-top: 20px;
+        padding-bottom: 50px;
     }
 }

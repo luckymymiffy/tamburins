@@ -91,7 +91,7 @@ header .icon_wrap{
     }
     .best_list {
         padding: 100px 75px;
-        padding-bottom: 0px;
+        padding-bottom: 50px;
     }
     #menu_list{
         display: none;
@@ -101,6 +101,10 @@ header .icon_wrap{
         display: grid;
         grid-template-columns: repeat(1,minmax(10px,1fr));
     }
-    
+    .item_list>ul>li p{
+        opacity: 1;
+        padding: 0px 20px;
+        top: 30px;
+    }
 }
 

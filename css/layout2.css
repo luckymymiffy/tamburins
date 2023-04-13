@@ -96,7 +96,7 @@ header .icon_wrap{
     width: 100%;
     height: 300px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 10px;
     box-sizing: border-box;
     display: none;
     font-size: 0.8rem;

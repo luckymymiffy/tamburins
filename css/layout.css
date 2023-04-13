@@ -53,7 +53,7 @@ header nav{
     font-size: 1.2rem;
 }
 header #main_nav a{
-    color: rgba(255,255,255,0.7);
+    color: white;
 }
 header #main_nav ul li{
     font-weight: 500;
@@ -69,11 +69,12 @@ header #main_nav .depth2{
     line-height: 2.5;
     font-weight: 400;
 }
-header #main_nav .depth1>a{
-    color: white;
-}
-header #main_nav .depth2:hover a{
+header #main_nav .depth2 a{
     color: rgba(255,255,255,0.6);
+}
+header #main_nav .perfume_balm a{
+    color: white;
+    font-weight: 500;
 }
 /*********************** header 끝 *************************/
 
